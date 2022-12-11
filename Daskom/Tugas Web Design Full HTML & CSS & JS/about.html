@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Gayuh Widyanata</title>
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		// javascript image
+		$(document).ready(function(){
+			$("#flip").hover(function(){
+				$("#panel").slideToggle("slow");
+			});
+		})
+		// javascript button
+		$(document).ready(function () {
+            $("#subm").on({
+                mouseenter: function () {
+                    $(this).css("background-color", "#78a1d4").css("border-style", "none");
+                },
+                mouseleave: function () {
+                    $(this).css("background-color", "#3767a4").css("border-style", "none");
+                },
+                click: function () {
+                    $(this).css("background-color", "#183b79").css("border-style", "none");
+                }
+            })
+        })
+	</script>
+</head>
+<body bgcolor="#1D2630">
+
+	<div class="banner">
+		<div class="text">
+			<p>About Us</p>
+		</div>
+
+		<div class="foto">
+			<div id="flip" style="width:100%;">
+				<center>
+					<img src="img/foto.png">
+					<div id="panel" style="display: none; height: auto;">
+						<h6>Gayuh Widyanata</h6>
+						<p>IT SOFTWARE SOLUTION FOR BUSINESS</p>
+					</div>
+				</center>
+			</div>
+		</div>
+
+		<div class="content">
+			<hr>
+			<p>
+				Pertama tama puji syukur kita panjatkan kepada Tuhan yang Maha Esa dimana kita semua diberikan rahmat Allah yang sangat luar biasa. Perkenalkan saya Gayuh Widyanata, umur 19 tahun dan menduduki jenjang kuliah di salah satu universitas ternama di Semarang yaitu Universitas Dian Nuswantoro (UDINUS). Program Studi yang saya ambil adalah S1-Teknik Informatika dimana jurusan ini banyak mempelajari tentang sebuah pemrograman baik dari segi bahasa pemrograman maupun logika dalam menjalankan pemrograman.
+				Riwayat pendidikan dari TK saya bersekolah di TK TELADAN Ungaran, SD N 01 Ungaran, SMP N 03 Ungaran, SMK Telekomunikasi Tunas Harapan. Saya di SMK melakukan banyak belajar dan tentunya praktek untuk mengasah kemampuan saya untuk berfikir dan berjalan dengan menggunakan logika, tentunya jika kita mempelajari teorinya saja itupun tidak cukup untuk dapat memiliki kemampuan dalam sebuah pemrograman. Di SMK, saya membuat sebuah karya dengan membuat sistem/design web hingga mengikuti perlombaan mengenai Aplikasi mobile/desktop bidang IT SOFTWARE.
+			</p>
+			<div class="klik" style="width: 100%; justify-content: center; margin-top: 20px;">
+				<center>
+					<a href="index.html"><button id="subm" style="padding: 5px 20px; cursor: pointer; background: transparent; color: white; border: 1px solid white;" type="button">Back</button>
+					</a>
+				</center>
+			</div>
+			<br><br><b></b>
+		</div>
+	</div>
+
+
+</body>
+</html>

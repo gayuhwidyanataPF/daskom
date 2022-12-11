@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Portfolio Gayuh Widyanata</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		// javascript form
+		$(document).ready(function () {
+			$(".form").focus(function () {
+				$(this).css("background-color", "#3e485d").css("border-style", "none").css("color", "white");
+			});
+			$(".form").blur(function () {
+				$(this).css("background-color", "#1D2630");
+			});
+		})
+		// javascript button
+		$(document).ready(function () {
+			$("#subm, #submsatu").on({
+				mouseenter: function () {
+					$(this).css("background-color", "#78a1d4").css("border-style", "none");
+				},
+				mouseleave: function () {
+					$(this).css("background-color", "#3767a4").css("border-style", "none");
+				},
+				click: function () {
+					$(this).css("background-color", "#183b79").css("border-style", "none");
+				}
+			})
+		})
+	</script>
+</head>
+
+<body>
+
+	<!-- Start Navbar -->
+	<div class="navbar">
+		<center>
+			<ul class="nav">
+				<li style="float:left"><a href="#homepage">NATA GW</a></li>
+				<li><a href="#contact" data-aos="fade-left" data-aos-duration="3000">Contact</a></li>
+				<li><a href="#ability" data-aos="fade-left" data-aos-duration="2500">Ability</a></li>
+				<li><a href="#achievment" data-aos="fade-left" data-aos-duration="2000">Achievement</a></li>
+				<li><a href="#about" data-aos="fade-left" data-aos-duration="1500">About</a></li>
+				<li><a href="#homepage" data-aos="fade-left" data-aos-duration="1000">Home</a></li>
+			</ul>
+		</center>
+	</div>
+	<!-- End Navbar -->
+
+
+	<!-- Start Home -->
+	<div class="homepage" id="homepage">
+		<div class="txt">
+			<h2 data-aos="zoom-in" data-aos-duration="2000">Welcome To My Website</h2>
+			<hr class="ghome" data-aos="zoom-in" data-aos-duration="2000">
+			<h3 data-aos="zoom-in" data-aos-duration="2000">Frontend Developer</h3>
+			<p data-aos="zoom-in" data-aos-duration="2000">Gayuh Widyanata</p>
+			<button data-aos="zoom-in" data-aos-duration="2000" id="subm" class="btnMulai"><a href="#about"
+					style="color: white; text-decoration: none;">Get Started</a></button>
+		</div>
+	</div>
+	<!-- End Home -->
+
+
+	<!-- Start About -->
+	<div class="elemenAbout">
+		<div class="rapi">
+			<div class="judul" id="about">About
+				<center>
+					<hr class="hJudul">
+				</center>
+			</div>
+			<div class="gambar" data-aos="fade-left">
+				<center>
+					<img src="img/foto.png">
+					<p>Gayuh Widyanata</p>
+				</center>
+			</div>
+			<div class="isiAbout" data-aos="fade-right">
+				<p>Pertama tama puji syukur kita panjatkan kepada Tuhan yang Maha Esa dimana kita semua diberikan rahmat
+					Allah yang sangat luar biasa. Perkenalkan saya Gayuh Widyanata, umur 19 tahun dan menduduki jenjang
+					kuliah di salah satu universitas ternama di Semarang yaitu Universitas Dian Nuswantoro (UDINUS).
+					Program Studi yang saya ambil adalah S1-Teknik Informatika dimana jurusan ini banyak mempelajari
+					tentang sebuah pemrograman baik dari segi bahasa pemrograman maupun logika dalam menjalankan
+					pemrograman.</p>
+				<button data-aos="fade-out" data-aos-duration="2000" id="submsatu" class="btnMulai"><a href="about.html"
+						style="color: white; text-decoration: none;">Learn More</a></button>
+			</div>
+		</div>
+	</div>
+	<!-- End About -->
+
+
+	<!-- Start Achievment -->
+	<div class="achievment">
+		<div class="fluid-container">
+			<div class="row">
+				<div class="judul" style="margin-bottom: 40px;" id="achievment">Achievment
+					<center>
+						<hr class="hJudul">
+					</center>
+				</div>
+				<div class="column" data-aos="fade-right" data-aos-duration="2500">
+					<div class="card">
+						<img src="img/serti5.jpg" style="width:100%;">
+						<div class="txt">
+							<h4><b>Programmer Starter Kit</b></h4>
+						</div>
+					</div>
+				</div>
+				<div class="column" data-aos="fade-right" data-aos-duration="2000">
+					<div class="card">
+						<img src="img/serti2.png" style="width:100%;">
+						<div class="txt">
+							<h4><b>Highest Toefl Score</b></h4>
+						</div>
+					</div>
+				</div>
+				<div class="column" data-aos="fade-right" data-aos-duration="1500">
+					<div class="card">
+						<img src="img/serti3.png" style="width:100%;">
+						<div class="txt">
+							<h4><b>Public Speaking</b></h4>
+						</div>
+					</div>
+				</div>
+				<div class="column" data-aos="fade-right" data-aos-duration="1000">
+					<div class="card">
+						<img src="img/serti4.png" style="width:100%;">
+						<div class="txt">
+							<h4><b>Serti Sharing Alumni</b></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Achievment -->
+
+
+	<!-- Start Skills -->
+	<div class="ability" id="ability">
+		<div class="grid isi">
+			<div class="cntn">
+				<center>
+					<div class="judul" style="margin-bottom: 40px;" id="ability">Ability
+						<center>
+							<hr class="hJudul">
+						</center>
+					</div>
+				</center>
+				<ul>
+					<li class="html" data-aos="fade-right">HTML</li>
+					<li class="php" data-aos="fade-right">CSS</li>
+					<li class="csharp" data-aos="fade-right">Javascript</li>
+					<li class="java" data-aos="fade-right">PHP</li>
+					<li class="mssql" data-aos="fade-right">C#</li>
+					<li class="ui" data-aos="fade-right">Ui Design</li>
+					<li class="blogger" data-aos="fade-right">Wordpress</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End Skills -->
+
+	<!-- Start Contact -->
+	<center class="contactt">
+		<div class="judul" style="margin-bottom: 40px;" id="contact">Contact
+			<center>
+				<hr class="hJudul">
+			</center>
+		</div>
+	</center>
+	<div class="contact">
+		<form action="simpan.php" method="post">
+			<label for="fname">Name</label>
+			<input data-aos="zoom-out" type="text" name="fnama" placeholder="Your name.." class="form">
+
+			<label for="lname">Email</label>
+			<input data-aos="zoom-out" type="text" name="femail" placeholder="Your Email.." class="form">
+
+			<label for="country">Address</label>
+			<input data-aos="zoom-out" type="text" name="faddress" placeholder="Your Address.." class="form">
+
+			<label for="subject">Subject</label>
+			<textarea data-aos="zoom-out" id="subject" name="fpesan" placeholder="Write something.."
+				style="height:200px" class="form"></textarea>
+
+			<center>
+				<!-- <button data-aos="zoom-in" id="subm" class="btnMulai"><a name="fsubmit" style="color: white; text-decoration: none;">Kirim</a></button> -->
+				<input type="submit" value="Submit" name="fsubmit">
+			</center>
+		</form>
+	</div>
+	<!-- End Contact -->
+
+
+	<!-- Start Footer -->
+	<footer>
+		<div class="footer-content">
+			<p class="jdl">Gayuh Widyanata</p>
+			<p class="pjls">It Software Solution For Business</p>
+			<h4>
+
+				<a href="https://www.instagram.com/natagw/" target="_blank"><img
+						src="https://img.icons8.com/material-outlined/30/ffffff/instagram-new--v1.png" /></a>
+				<a href="https://wa.me/6285723783739" target="_blank"><img
+						src="https://img.icons8.com/material-outlined/30/ffffff/whatsapp--v1.png" /></a>
+				<a href="https://www.facebook.com/gayuh.widyanata/" target="_blank"><img
+						src="https://img.icons8.com/material-outlined/30/ffffff/facebook-new.png" /></a>
+			</h4>
+		</div>
+		<div class="container">
+			<hr class="poter">
+		</div>
+		<div class="footer-bottom">
+			<p>
+				Copyright &copy; 2022 Gayuh Widyanata | designed by <span style="color: darkgrey;">Gayuh</span> | Dasar
+				Komputasi | Udinus
+			</p>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>

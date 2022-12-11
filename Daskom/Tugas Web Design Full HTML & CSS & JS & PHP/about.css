@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-color: #3e485d; 
+    color: lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner{
+    height: 200px; width: 100%; 
+    position: relative; 
+    background-image: url(img/coba.jpg); 
+    background-size: cover;
+}
+.banner .text{
+    justify-content: center; 
+    height: 200px; 
+    display: flex; 
+    align-items: center;
+}
+.banner .text p{
+    color: whitesmoke; 
+    letter-spacing: 10px; 
+    font-size: 50px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner .content{
+    margin-top: 50px;
+}
+.banner .content p{
+    margin: 0 10% 0; 
+    text-align: justify; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin-top: 20px; font-size: 20px;
+}
+.banner .content hr{
+    margin: 0 10% 30px;
+}
+.banner .foto img{
+    width: 220px;
+    height: 220px;
+    background-size: cover; 
+    margin-top: 20px; 
+    border-radius: 50%;
+}
+.banner .foto h6{
+    font-size: 20px; 
+    margin-top: 10px;
+}
+.banner .foto p{
+    font-size: 14px;
+}
